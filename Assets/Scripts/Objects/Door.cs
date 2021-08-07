@@ -18,7 +18,7 @@ public class Door : MonoBehaviour, ICloseOpen
 
     void Update()
     {
-        
+
     }
 
     public void Open()
