@@ -52,8 +52,8 @@ public class Player : MovingObject
 
     protected override void OnCantMove<T>(T component)
     {
-        Door hitPlayer = component as Door;
-        hitPlayer.Open();
+        Door hitDoor = component as Door;
+        hitDoor.Open();
         //animator.SetTrigger("playerChop");
     }
 
